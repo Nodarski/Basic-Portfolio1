@@ -1,5 +1,62 @@
 .contentArea {
 
-    width: 960px;
-    background-color: aqua;
+    max-width: 960px;
+    position: relative;
+    margin: auto;
+    clear: both;
+   
+    
+}
+.pageHeader{
+    margin: auto;
+    width: 100%;
+    height: 90px;
+    background-color: green;
+
+
+}
+.nameBox {
+    display:block;
+    background-color: #4aaaa5;
+    float: left;
+    width: 250px;
+    height: 90px;
+}
+
+.name {
+    font-family: 'Times New Roman','Georgia', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;  
+    
+}
+
+.navBar {
+    background-color: greenyellow;
+    float: right;
+    height: 90px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.link {
+    display: inline;
+    background-color: gray;
+    padding: 14px 16px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px; 
+}
+
+.link:hover {
+    background-color: #4aaaa5;
+
+}
+
+.active { 
+    background-color: #4aaaa5;
 }
