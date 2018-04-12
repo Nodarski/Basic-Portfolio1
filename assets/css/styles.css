@@ -49,6 +49,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
 }
 
 .link {
@@ -65,11 +66,15 @@ body {
 
 .link:hover {
     background-color: #4aaaa5;
+    color: #777777;
+    text-decoration: none;
 
 }
 
 .active { 
     background-color: #4aaaa5;
+    color: #777777;
+    text-decoration: none;
 }
 
 .pageFooter {
@@ -117,3 +122,9 @@ body {
     float: left;
     align-content: center;
 }
+#img1 {
+    clear: both;
+    padding: 10px;
+}
+#img2 {clear: both;padding: 10px;}
+#img3 {clear: both;padding: 10px;}
