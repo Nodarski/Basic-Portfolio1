@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(231, 222, 222);
+    background-image: url('circles-light.png');
 }
 
 .contentArea {
@@ -108,5 +108,10 @@ body {
     font-weight: bold;
 }
 .mainImage {
+    float: left;
+}
+
+.imgBody1 {
+    position: static;
     float: left;
 }
