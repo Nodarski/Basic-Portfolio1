@@ -99,6 +99,7 @@ body {
     height: 100%;
     background-color: white;
     top: 20px;
+    padding: 15px;
 }
 
 .contentHeader {
@@ -114,4 +115,5 @@ body {
 .imgBody1 {
     position: static;
     float: left;
+    align-content: center;
 }
